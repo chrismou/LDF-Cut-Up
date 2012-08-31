@@ -1,0 +1,50 @@
+﻿html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,
+b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1; }
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+html {overflow-y: scroll;} 
+
+/* grid */
+.grids { clear:both; max-width:960px; margin:0; list-style:none; zoom:1; }
+.grids:after { clear:both; }
+[class^="grid-"] { float:left; margin:0 2.083% 0 0; }
+.grid-1{ width:6.25% }
+.grid-2{ width:14.583% }
+.grid-3{ width:22.917% }
+.grid-4{ width:31.25% }
+.grid-5{ width:39.583% }
+.grid-6{ width:47.917% }
+.grid-7{ width:56.25% }
+.grid-8{ width:64.583% }
+.grid-9{ width:72.917% }
+.grid-10{ width:81.25% }
+.grid-11{ width:89.583% }
+.grid-12{ width:97.917%; margin:0 }
+.grid-buffer { margin-bottom:40px; }
+
+/* clears */
+body:after { content:'.'; display:block; clear:both; height:0; visibility:hidden; }
+
+/* html */
+body { background-color:#010101; }
+
+/* containers */
+.header { background:url('img/header-bg.jpg') center top no-repeat; min-height:200px; max-height:440px; }
+.content { background:url('img/content-bg.jpg') center top repeat-y; }
+.footer { background:url('img/footer-bg.gif') center top repeat-y; height:195px; }
+.header-inner, .content-inner, .footer-inner { margin:0 auto; width:940px; }
+.header-inner { padding:50px 0 40px; position:relative; }
+
+/* header */
+.logo, .nav { margin-top:}
+
+
+/* temp */
+.container, .content { height:1000px; }
+.header-inner, .content-inner, .footer-inner { border:1px solid white;}
